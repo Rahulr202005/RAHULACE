@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #071931;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50vh;
+    gap: 12vw;
+}
+
+.insta {
+    color: aliceblue;
+
+    border: 0px solid rgb(6, 226, 255);
+    border-radius: 13px;
+}
+
+.twitter {
+
+    border: 0px solid rgb(6, 226, 255);
+    border-radius: 13px;
+}
+
+.linkedin {
+
+    border: 0px solid rgb(6, 226, 255);
+    border-radius: 13px;
+}
+
+img {
+    height: 8vh;
+}
+
+.social {
+    border: 2px solid rgb(6, 226, 255);
+    display: flex;
+    gap: 12vw;
+    padding: 50px;
+    position: relative;
+    top: -12vh;
+    left: -2vw;
+    border-radius: 13px;
+    background: #45ffec11;
+    box-shadow: 0 0 5px #45ffec,
+        0 0 20px #45ffec,
+        0 0 60px #45ffec,
+        0 0 150px #45ffec;
+
+}
+@media all and (max-width: 922px) 
+{
+    .social{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -23vh;
+    }
+}

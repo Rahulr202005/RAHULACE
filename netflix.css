@@ -1,0 +1,764 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(37, 36, 36);
+    overflow-x: hidden;
+}
+
+.blackbox {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.54;
+}
+
+.firstbg {
+    height: 100vh;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/655a9668-b002-4262-8afb-cf71e45d1956/5ff265b6-3037-44b2-b071-e81750b21783/IN-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_c6d6616f-4478-4ac2-bdac-f54b444771dd_medium.jpg);
+    /* background-repeat: no; */
+    background-position: center center;
+}
+
+.engsign {
+    display: flex;
+    gap: -28px;
+}
+
+.eng {
+    background-color: #6361611e;
+    display: flex;
+    color: rgb(255, 255, 255);
+    border: 1px solid #5d5656;
+    position: relative;
+    left: 71vw;
+    top: 27px;
+    z-index: 10;
+    height: 28px;
+    width: 119px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.sign:hover {
+    background-color: #6d050a;
+    cursor: pointer;
+}
+
+.eng:hover {
+    cursor: pointer;
+}
+
+.sign {
+    display: flex;
+    color: #ffffff;
+    border: 0px solid #E50914;
+    background-color: #E50914;
+    position: relative;
+    left: 74vw;
+    top: 4vh;
+
+    height: 28px;
+    width: 82px;
+    justify-content: center;
+
+    align-items: center;
+    border-radius: 3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+.logo {
+    position: relative;
+    width: 19vw;
+    top: -8vh;
+    left: 8vw;
+    height: 145px;
+    display: flex;
+}
+
+
+
+.head1 {
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 43px;
+    top: 10vh;
+    letter-spacing: 1px;
+}
+
+.head2 {
+    position: relative;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    top: 13vh;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+
+}
+
+.head3 {
+    position: relative;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    top: 17vh;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.mail {
+    position: relative;
+    top: 20vh;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    left: 26vw;
+    width: 32vw;
+    border-radius: 6px;
+    background-color: #181212cf;
+    font-size: 17px;
+    font-weight: 100;
+    color: #ffffff;
+    padding-left: 23px;
+    border-style: none;
+}
+
+.button2 {
+    position: relative;
+    height: 54px;
+    width: 13vw;
+    border-radius: 6px;
+    background-color: #E50914;
+    left: 61vw;
+    top: 72px;
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+
+.button2:hover {
+    background-color: #6d050a;
+    cursor: pointer;
+}
+
+/* .secondbox{
+    height: 90vh;
+    background-color: black;
+    
+} */
+
+/* .eoyt{
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 27vh;
+    left: 13vw;
+    font-family: poppins;
+    font-size: 48px;
+    font-weight: 800;
+}
+.wost{
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 13vw;
+    font-family: poppins;
+    font-size: 23px;
+    font-weight: 400;
+    top: 30vh;
+} */
+
+/* .imgtv{
+    position: relative;
+    top: -16vh;
+    left: 51vw;
+    height: 58vh;
+} */
+
+.secondbox {
+    height: 88vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 10px;
+    display: flex;
+}
+
+.tv1 {
+    color: white;
+    font-family: poppins;
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    font-weight: 900;
+    font-size: 54px;
+
+}
+
+.tv2 {
+    color: white;
+    font-family: roboto;
+    position: absolute;
+    left: 11%;
+    top: 45%;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.tv3 {
+    color: white;
+    font-family: roboto;
+    position: absolute;
+    left: 11%;
+    top: 51%;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.tv4 {
+    color: white;
+    font-family: roboto;
+    position: absolute;
+    left: 11%;
+    top: 57%;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.tvimg {
+    display: flex;
+    position: relative;
+    left: 49%;
+    height: 63vh;
+    top: 10vh;
+    background-color: #ffffff00;
+    z-index: 1;
+}
+
+.tvvdo {
+    position: relative;
+    top: 148px;
+    left: 194px;
+    height: 221px;
+}
+
+.thirdbox {
+    height: 88vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 3vh;
+    display: flex;
+}
+
+.strangerthings {
+    height: 60vh;
+    position: relative;
+    left: 12vw;
+    top: 13vh;
+}
+
+.stborder {
+    height: 15vh;
+    width: 21vw;
+    position: relative;
+    border: 2px solid #8f8686;
+    background-color: #000000;
+    left: -239px;
+    top: 52vh;
+    border-radius: 16px;
+}
+
+.stimg2 {
+    position: relative;
+    height: 12vh;
+    top: 8px;
+    left: 11px;
+}
+
+.st {
+    color: white;
+    position: relative;
+    top: -9vh;
+    left: 7vw;
+    font-family: poppins;
+    font-size: 17px;
+}
+
+.st1 {
+    color: #020da5;
+    position: relative;
+    left: 7vw;
+    top: -9vh;
+    font-family: poppins;
+}
+
+.sttxt {
+    color: white;
+    font-weight: 800;
+}
+
+.sttxt1 {
+    position: absolute;
+    font-family: poppins;
+    /* font-weight: 900; */
+    font-size: 49px;
+    top: 18vh;
+    left: 51vw;
+}
+
+.sttxt2 {
+    position: absolute;
+    font-family: poppins;
+    /* font-weight: 900; */
+    font-size: 50px;
+    top: 30vh;
+    left: 698px;
+}
+
+.sttxt3 {
+    position: absolute;
+    font-family: poppins;
+    /* font-weight: 900; */
+    font-size: 50px;
+    top: 42vh;
+    left: 698px;
+}
+
+.sttxt4 {
+    font-family: poppins;
+    font-size: 23px;
+    font-weight: 400;
+    position: relative;
+    left: -106px;
+    top: 56vh;
+}
+
+.sttxt5 {
+    font-family: poppins;
+    font-size: 23px;
+    font-weight: 400;
+    position: relative;
+    left: -106px;
+    top: 56vh;
+}
+
+.fourthbox {
+    height: 88vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 28px;
+}
+
+.we {
+    color: white;
+    font-family: poppins;
+    position: absolute;
+    top: 30%;
+    left: 11%;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.sumatv {
+    color: white;
+    font-family: roboto;
+    position: absolute;
+    left: 11%;
+    top: 45%;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.yourpt {
+    color: white;
+    font-family: roboto;
+    position: absolute;
+    left: 11%;
+    top: 51%;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.tvimg2 {
+    display: flex;
+    position: relative;
+    left: 49%;
+    height: 63vh;
+    top: 10vh;
+    background-color: #ffffff00;
+    z-index: 1;
+}
+
+.tvvdo2 {
+    position: relative;
+    top: -47vh;
+    height: 188px;
+    left: 762px;
+
+}
+
+.fifthbox {
+    height: 88vh;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    top: 36px;
+}
+
+.kidsimg {
+    height: 60vh;
+    position: relative;
+    left: 12vw;
+    top: 13vh;
+}
+
+.kidstxt1 {
+    color: white;
+    position: absolute;
+    font-family: poppins;
+    /* font-weight: 900; */
+    font-size: 49px;
+    top: 18vh;
+    left: 51vw;
+}
+
+.kidstxt2 {
+    color: white;
+    position: absolute;
+    font-family: poppins;
+    /* font-weight: 900; */
+    font-size: 50px;
+    top: 28vh;
+    left: 698px;
+}
+
+.kidstxt3 {
+    color: white;
+    position: relative;
+    left: 51vw;
+    top: -22vh;
+    font-family: poppins;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.kidstxt4 {
+    color: white;
+    position: relative;
+    left: 51vw;
+    top: -22vh;
+    font-family: poppins;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.kidstxt5 {
+    color: white;
+    position: relative;
+    left: 51vw;
+    top: -22vh;
+    font-family: poppins;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.sixthbox {
+    height: 140vh;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    top: 45px;
+}
+
+.faq {
+    color: white;
+    font-family: poppins;
+    position: absolute;
+    font-weight: 900;
+    font-size: 50px;
+    left: 23vw;
+    top: 13vh;
+}
+
+.grid1 {
+    display: grid;
+    position: relative;
+    top: 31vh;
+    height: 70vh;
+    row-gap: 12px;
+    justify-content: center;
+}
+
+.gri {
+    width: 76vw;
+    height: 12vh;
+    display: grid;
+    align-items: center;
+    padding-left: 16px;
+    color: white;
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.g1 {
+    border: 0px solid grey;
+    background-color: rgb(34, 32, 32);
+}
+
+.g2 {
+    border: 0px solid grey;
+    background-color: rgb(34, 32, 32);
+}
+
+.g3 {
+    border: 0px solid grey;
+    background-color: rgb(34, 32, 32);
+}
+
+.g4 {
+    border: 0px solid grey;
+    background-color: rgb(34, 32, 32);
+}
+
+.g5 {
+    border: 0px solid grey;
+    background-color: rgb(34, 32, 32);
+}
+
+.g6 {
+    border: 0px solid grey;
+    background-color: rgb(34, 32, 32);
+}
+
+.seventhbox {
+    height: 80vh;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    top: 55px;
+}
+
+.qandc {
+    color: rgb(206, 193, 193);
+    position: relative;
+    top: 13vh;
+    left: 10vw;
+    font-size: 18px;
+}
+
+.grid2 {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 50px 62px 70px 100px;
+    column-gap: 167px;
+}
+
+.gru {
+    color: rgb(206, 193, 193);
+    position: relative;
+    top: 21vh;
+    left: 10vw;
+    text-decoration: underline;
+    font-family: poppins;
+    font-weight: 100;
+    font-size: 13px;
+
+}
+
+@media all and (max-width: 1920px) {
+    .logo {
+        position: relative;
+        top: 1vh;
+        width: 12vw;
+    }
+
+    .eng {
+        position: relative;
+        top: 4vh;
+    }
+
+    .button2 {
+        position: relative;
+        top: 15vh;
+    }
+}
+
+/* @media all and (max-width: 2652px) {
+    .logo {
+        position: relative;
+        top: -1vh;
+        left: 12vw;
+        width: 12vw;
+    }
+
+    .eng {
+        position: relative;
+        top: 4vh;
+    }
+
+    .button2 {
+        position: relative;
+        top: 15vh;
+    }
+   
+} */
+
+@media all and (max-width: 1102px) {
+
+    .button2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 2652px) {
+    .tvvdo {
+        position: absolute;
+        top: 13vh;
+        height: 34vh;
+        left: 124px;
+        z-index: -1;
+    }
+
+    .sttxt1 {
+        position: relative;
+        top: 28vh;
+        left: -3vw;
+    }
+
+    .sttxt2 {
+        position: relative;
+        top: 30vh;
+        left: -3vw;
+    }
+
+    .sttxt3 {
+        position: relative;
+        top: 33vh;
+        left: -3vw;
+    }
+
+    .thirdbox {
+        position: relative;
+        top: 2vh;
+    }
+
+    .stborder {
+        position: relative;
+        left: -15vw;
+    }
+    .tvvdo2 {
+        position: absolute;
+        left: 56vw;
+        top: 16vh;
+        height: 28vh;
+    }
+    .logo {
+        position: relative;
+        top: -5vh;
+        left: 12vw;
+        width: 12vw;
+    }
+
+    .eng {
+        position: relative;
+        top: 4vh;
+    }
+
+    .button2 {
+        position: relative;
+        top: 15vh;
+    }
+    .sttxt4{
+        position: relative;
+        top: 35vh;
+        left: -3vw;
+        
+    }
+    .sttxt5{
+        position: relative;
+        top: 35vh;
+        left: -3vw;
+        
+    }
+}
+
+@media (max-width: 1366px) {
+    .button2 {
+        position: relative;
+        top: 12vh;
+        
+    }
+
+    .logo {
+        position: relative;
+        top: -4vh;
+    }
+
+    .sttxt2 {
+        position: relative;
+        top: 8vh;
+    }
+
+    .sttxt3 {
+        position: relative;
+        top: 13vh;
+    }
+
+    .tvvdo {
+        position: absolute;
+        left: 5vw;
+    }
+
+    .sttxt4 {
+        position: relative;
+        left: -3vw;
+        top: 13vh;
+    }
+    .sttxt5 {
+        position: relative;
+        left: -3vw;
+        top: 13vh;
+    }
+}
+@media all and (max-width: 1310px)
+{
+    .logo{
+        position: relative;
+        top: 5px;
+    }
+    .button2{
+        position: relative;
+        top: 15vh;
+    }
+}
